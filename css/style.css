@@ -297,7 +297,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-cover {
   height: 900px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 600px;
+    height: 900px;
   }
 }
 .fh5co-cover .display-t,

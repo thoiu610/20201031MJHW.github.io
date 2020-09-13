@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 100%;
   float: left;
 }
 #fh5co-counter .display-t,
@@ -1838,6 +1838,16 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.fn5co-div-img{
+	position: relative;
+    width: 100%;
+}
+
+.fh5co-img {
+	max-width: 100%;
+    height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
